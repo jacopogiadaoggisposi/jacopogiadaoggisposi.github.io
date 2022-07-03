@@ -1,37 +1,64 @@
-# Grassy Glande
-
-You can use the [editor on GitHub](https://github.com/jacopogiadaoggisposi/jacopogiadaoggisposi.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jacopogiadaoggisposi/jacopogiadaoggisposi.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+---
+layout: default
+---
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container"><a class="navbar-brand" href="index.html">CustomJekyll</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div
+                class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="about.html">About us</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="post.html">Blog Post</a></li>
+                </ul>
+        </div>
+        </div>
+    </nav>
+    <header class="masthead" style="background-image:url('assets/img/home-bg.jpg');">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-8 mx-auto">
+                    <div class="site-heading">
+                        <h1><a href="index.html"><strong>CustomJekyll</strong></a><br></h1><span class="subheading">A Blog Theme by Anon3m!ty</span></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-lg-8">
+                <div class="post-preview">
+                    <a href="#" style="color: rgb(149,153,156);">
+                        <h2 class="post-title">Man must explore, and this is exploration at its greatest</h2>
+                        <h3 class="post-subtitle">Problems look mighty small from 150 miles up</h3>
+                    </a>
+                    <p class="post-meta">Posted by&nbsp;<a href="#" style="color: rgb(169,16,207);">Anon3m!ty</a></p>
+                </div>
+                <hr>
+                <div class="post-preview">
+                    <a href="#">
+                        <h2 class="post-title" style="color: rgb(149,153,156);">I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.</h2>
+                    </a>
+                    <p class="post-meta">Posted by&nbsp;<a href="#" style="color: rgb(169,16,207);">Anon3m!ty</a></p>
+                </div>
+                <hr>
+                <div class="post-preview">
+                    <a href="#" style="color: rgb(149,153,156);">
+                        <h2 class="post-title"> Science has not yet mastered prophecy</h2>
+                        <h3 class="post-subtitle">We predict too much for the next year and yet far too little for the next ten.</h3>
+                    </a>
+                    <p class="post-meta">Posted by&nbsp;<a href="#" style="color: rgb(169,16,207);">Anon3m!ty&nbsp;</a></p>
+                </div>
+                <hr>
+                <div class="post-preview">
+                    <a href="#" style="color: rgb(149,153,156);">
+                        <h2 class="post-title">Failure is not an option</h2>
+                        <h3 class="post-subtitle">Many say exploration is part of our destiny, but it’s actually our duty to future generations.</h3>
+                    </a>
+                    <p class="post-meta">Posted by&nbsp;<a href="#" style="color: rgb(169,16,207);">Anon3m!ty</a></p>
+                </div>
+                <hr>
+                <div class="clearfix"><button class="btn btn-primary float-right" type="button">Older Posts&nbsp;⇒</button></div>
+            </div>
+        </div>
+    </div>
